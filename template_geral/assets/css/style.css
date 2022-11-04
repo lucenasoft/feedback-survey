@@ -92,18 +92,52 @@ footer a {
 
 /* RESPONSIVIDADE */
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 540px) {
     body {
+        max-width: 310px;
         background: url("https://wallpaperaccess.com/full/645620.png") no-repeat;
         background-color: rgb(21, 88, 105);
-        background-size: 820px;
+        background-size: 750px;
     }
 
     nav {
+        padding: 20px;
         margin: 2em -2em;
     }
 
-    .container-box {
-      margin: 2em 3em;
+    nav input {
+        width: 10px;
+        font-size: 10px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-  }
+
+    nav img {
+        max-width: 50px;
+    }
+
+    .header-container img {
+        max-width: 200px;
+    }
+
+    .header-container h1 {
+        font-size: 25px;
+        margin-bottom: -10px;
+    }
+
+    .header-container p {
+        font-size: 14px;
+    }
+
+    .container-box {
+      display: flex;
+      max-width: 350px;
+      min-height: 400px;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
+}
