@@ -89,3 +89,21 @@ footer a {
     text-decoration: none;
     color: white;
 }
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 810px) {
+    body {
+        background: url("https://wallpaperaccess.com/full/645620.png") no-repeat;
+        background-color: rgb(21, 88, 105);
+        background-size: 820px;
+    }
+
+    nav {
+        margin: 2em -2em;
+    }
+
+    .container-box {
+      margin: 2em 3em;
+    }
+  }
