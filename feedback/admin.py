@@ -11,4 +11,4 @@ class CategoryAdmin(admin.ModelAdmin):
 
 @admin.register(Feedbacks)
 class FeedbacksAdmin(admin.ModelAdmin):
-    list_display = ['id', 'author', 'email', 'message']
+    list_display = ['author', 'email', 'message']
