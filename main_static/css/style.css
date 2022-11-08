@@ -153,6 +153,16 @@ footer a {
     filter: drop-shadow(-1px 1px 6px white);
 }
 
+/* Messagem */
+
+.message {
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
 /* RESPONSIVIDADE */
 
 @media screen and (max-width: 810px) {
