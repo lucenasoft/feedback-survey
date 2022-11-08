@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    padding: 0;
+    margin: auto;
+    background: url("https://wallpaperaccess.com/full/645620.png") no-repeat;
+    background-color: rgb(21, 88, 105);
+    background-size: 2000px;
+    background-position-x: center;
+    font-family: "Roboto";
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: none;
+}
+
+nav img {
+    max-width: 80px;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 50px;
+    color: white;
+    padding: 10px;
+}
+
+nav input {
+    font-family: "Poppins";
+    font-size: 18px;
+    padding: 11px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    color: white;
+    background: linear-gradient(90deg, rgb(45, 116, 156) 0%, rgba(12,167,199,1) 100%);
+    cursor: pointer;
+    border: none;
+    transition: ease-in-out 0.15s;
+}
+
+nav input:hover {
+    filter: drop-shadow(-1px 1px 6px white);
+}
+
+.header-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.header-container h1 {
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+.header-container img {
+    max-width: 300px;
+    margin-bottom: -30px;
+}
+
+.container-box {
+    max-width: 800px;
+    min-height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgb(0, 160, 186) 0%, rgba(21, 88, 105) 100%);
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 810px) {
+    body {
+        max-width: 310px;
+        background: url("https://wallpaperaccess.com/full/645620.png") no-repeat;
+        background-color: rgb(21, 88, 105);
+        background-size: 750px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        margin: 2em -6em;
+    }
+
+    nav input {
+        font-size: 15px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav img {
+        max-width: 50px;
+    }
+
+    .header-container img {
+        max-width: 200px;
+    }
+
+    .header-container h1 {
+        font-size: 25px;
+        margin-bottom: -10px;
+    }
+
+    .header-container p {
+        font-size: 14px;
+    }
+
+    .container-box {
+      display: flex;
+      max-width: 350px;
+      min-height: 400px;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
+}

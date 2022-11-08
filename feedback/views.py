@@ -1,5 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+
+from .models import Feedbacks
+
 
 def feedback(request):
-    return HttpResponse("Hellow World")
+    return render(request, 'pages/home.html')
