@@ -20,7 +20,9 @@ class RegisterFeedback(forms.ModelForm):
         label='',
     )
 
-    message = forms.CharField()
+    message = forms.CharField(
+        label='',
+    )
 
     class Meta:
         model = User
