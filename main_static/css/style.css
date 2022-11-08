@@ -110,6 +110,12 @@ footer a {
     font-family: 'Roboto';
 }
 
+nav button {
+    border: none;
+    padding: 0;
+    border-radius: 30px;
+}
+
 .container-box label {
     margin-top: 20px;
 }
@@ -145,10 +151,6 @@ footer a {
     border: none;
 }
 
-.btn-feedbacks input {
-    transition: ease-in-out 5s;
-}
-
 .btn-feedbacks:hover {
     filter: drop-shadow(-1px 1px 6px white);
 }
@@ -158,7 +160,8 @@ footer a {
 .message {
     font-weight: bold;
     text-align: center;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: -15px;
     font-size: 25px;
     color: rgb(255, 255, 255);
 }
@@ -208,7 +211,27 @@ footer a {
     .container-box {
       display: flex;
       max-width: 350px;
-      min-height: 400px;
+      min-height: 350px;
+    }
+
+    .message {
+        font-size: 15px;
+    }
+
+    .container-box input {
+        font-size: 11px;
+        margin-bottom: -13px;
+        width: 200px;
+        height: 30px;
+    }
+
+    .container-box textarea {
+        width: 200px;
+        height: 100px;
+    }
+
+    .btn-feedbacks button{
+        font-size: 15px;
     }
 
     footer a {

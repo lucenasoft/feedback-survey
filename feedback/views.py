@@ -23,7 +23,7 @@ def feedback_create(request):
 
     if form.is_valid():
         form.save()
-        messages.success(request, 'Enviado com sucesso')
+        messages.success(request, 'Enviado com sucesso!')
         del (request.session['register_form_data'])
         return redirect(reverse('feedback:feedback'))
 
