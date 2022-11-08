@@ -1,7 +1,12 @@
+from django.contrib import messages
+from django.http import Http404
 from django.shortcuts import render
 
-from .models import Feedbacks
+from .forms import RegisterFeedback
 
 
 def feedback(request):
-    return render(request, 'pages/home.html')
+    form = RegisterFeedback()
+    return render(request, 'pages/home.html', {
+        'form': form,
+    })
