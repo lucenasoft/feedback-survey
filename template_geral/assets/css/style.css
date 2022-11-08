@@ -6,7 +6,8 @@ body {
     margin: auto;
     background: url("https://wallpaperaccess.com/full/645620.png") no-repeat;
     background-color: rgb(21, 88, 105);
-    background-size: 1400px;
+    background-size: 2000px;
+    background-position-x: center;
     font-family: "Roboto";
 }
 
@@ -92,7 +93,7 @@ footer a {
 
 /* RESPONSIVIDADE */
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 810px) {
     body {
         max-width: 310px;
         background: url("https://wallpaperaccess.com/full/645620.png") no-repeat;
@@ -101,13 +102,14 @@ footer a {
     }
 
     nav {
+        display: flex;
+        justify-content: space-between;
         padding: 20px;
-        margin: 2em -2em;
+        margin: 2em -6em;
     }
 
     nav input {
-        width: 10px;
-        font-size: 10px;
+        font-size: 15px;
         text-align: center;
         display: flex;
         align-items: center;
