@@ -1,6 +1,8 @@
 from django import forms
 from django.contrib.auth.models import User
 
+from feedback.models import Feedbacks
+
 
 class RegisterFeedback(forms.ModelForm):
 
@@ -20,15 +22,17 @@ class RegisterFeedback(forms.ModelForm):
         label='',
     )
 
-    message = forms.CharField(
-        label='',
-    )
+    message = forms.Textarea()
 
     class Meta:
-        model = User
+        model = Feedbacks
         fields = [
             'author',
             'email',
             'message',
-
         ]
+        labels = {
+            'author': '',
+            'email': '',
+            'message': '',
+        }

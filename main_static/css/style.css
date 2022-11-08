@@ -81,6 +81,7 @@ nav input:hover {
     flex-direction: column;
     align-content: center;
     align-items: center;
+    font-style: "Roboto";
 }
 
 footer {
@@ -98,13 +99,58 @@ footer a {
 /* LABELS */
 
 .container-box input{
-    width: 400px;
-    height: 10px;
-    font-size: 20px;
-    margin-top: 20px;
+    width: 600px;
+    padding-left: 10px;
+    height: 45px;
+    background:  rgb(21, 88, 105);
     border-radius: 10px;
     border: none;
-    text-align: start;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Roboto';
+}
+
+.container-box label {
+    margin-top: 20px;
+}
+
+.container-box textarea{
+    padding: 10px;
+    background:  rgb(21, 88, 105);
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 600px;
+    border: none;
+    border-radius: 14px;
+}
+
+.btn-feedbacks {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.btn-feedbacks button {
+    font-family: "Poppins";
+    font-size: 18px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    color: white;
+    background: rgb(23, 117, 141);
+    cursor: pointer;
+    border: none;
+}
+
+.btn-feedbacks input {
+    transition: ease-in-out 5s;
+}
+
+.btn-feedbacks:hover {
+    filter: drop-shadow(-1px 1px 6px white);
 }
 
 /* RESPONSIVIDADE */
