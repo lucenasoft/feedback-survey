@@ -26,5 +26,7 @@ def feedback_create(request):
         messages.success(request, 'Enviado com sucesso!')
         del (request.session['register_form_data'])
         return redirect(reverse('feedback:feedback'))
+    else:
+        messages.error(request, 'E-mail invalido!')
 
     return redirect('feedback:feedback')
