@@ -9,7 +9,7 @@ ___
   <a href="LICENSE">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
   </a>
-  <a href="https://lucenasoft.pythonanywhere.com/ target="_blank"">
+  <a href="https://lucenasoft.pythonanywhere.com/ target="_blank">
     <img alt="License" src="https://img.shields.io/badge/view%20page-ON-brightgreen">
   </a>
 </p>
