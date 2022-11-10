@@ -35,7 +35,7 @@ projeto direcionado a utilização de feedbacks e problemas, com registros diret
 
 ## :interrobang: Motivo
 
-Aprimorar conhecimentos e buscar novos desafios, com também, trazer um melhor experiência para o usuário.
+Aprimorar conhecimentos e buscar novos desafios, como também, trazer um melhor experiência para o usuário.
 
 ## :seedling: Requisitos Mínimos
 
