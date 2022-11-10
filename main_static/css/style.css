@@ -129,6 +129,7 @@ nav button {
     width: 600px;
     border: none;
     border-radius: 14px;
+    resize: none;
 }
 
 .btn-feedbacks {
